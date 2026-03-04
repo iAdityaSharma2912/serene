@@ -1,0 +1,38 @@
+:root {
+  --cream: #f5efe6;
+  --warm-tan: #d4b896;
+  --bark: #8b6f47;
+  --earth: #5c4033;
+  --moss: #6b7c5c;
+  --sage: #9aab8a;
+  --clay: #c4714f;
+  --sand: #e8d5b7;
+  --deep: #1a1008;
+  --deep2: #241608;
+  --card-bg: rgba(30, 18, 8, 0.55);
+  --border: rgba(212, 184, 150, 0.13);
+  --border-hover: rgba(212, 184, 150, 0.28);
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+  font-family: 'DM Sans', sans-serif;
+  background: var(--deep);
+  color: var(--cream);
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(139,111,71,0.3); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(139,111,71,0.5); }
+
+a { color: var(--sage); text-decoration: none; }
+a:hover { color: var(--warm-tan); }
+
+button { font-family: 'DM Sans', sans-serif; cursor: pointer; }
+input, textarea { font-family: 'DM Sans', sans-serif; }
+
+.serif { font-family: 'Cormorant Garamond', serif; }
